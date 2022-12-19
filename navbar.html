@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MAterial Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <title>Navbar and Sidenav</title>
+</head>
+<body class="green lighten-4">
+    <nav class="teal darken-1">
+        <div class="container">
+            <ul class="nav wrapper">
+                <a href="#" class="brand-logo">Google Classroom</a>
+                <a href="#" data-target="slide-out" 
+                    class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+<!-- Navbar -->
+                
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="collection.html">About</a>
+                    </li>
+                    <li>
+                        <a href="grid.html">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Sidevar -->
+    <ul id="slide-out" class="sidenav green lighten-4">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="collection.html">About</a>
+        </li>
+        <li class="active">
+            <a href="grid.html">Help</a>
+        </li>
+    </ul>
+
+<!-- Cards -->
+
+    <div class="container">
+        <h3 class="black-text">Basic Card</h3>
+        <div class="row">
+            <div class="col s12 m6 hide-on-large-only">
+                <div class="card light-green darken-4">
+                    <div class="card-content white-text">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="">This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 hide-on-large-only">
+                <div class="card grey darken-4">
+                    <div class="card-content white-text">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+
+<!-- Image Card -->
+        <div class="container">
+            <h3 class="black-text">Image Card</h3>
+            <br>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card red lighten-4">
+                        <div class="card-image">
+                            <img src="images/merry3.jpg" alt=""> 
+                            <span class="card-title"><b>My Christmas</b></span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href=""><b>This is a link</b></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s4">
+                    <div class="card brown lighten-4">
+                        <div class="card-image">
+                            <img src="images/joy.jpg" alt="">
+                            <span class="card-title"><b>The Joy</b></span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href=""><b>This is a link</b></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s4">
+                    <div class="card lime accent-2">
+                        <div class="card-image">
+                            <img src="images/newyear.jpg" alt="">
+                            <span class="card-title"><b>My New Year</b></span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href=""><b>This is a link</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+
+<!-- Image Card with Floating Action Button -->
+
+        <div class="container">
+            <h3 class="black-text">Floating Action Button in Cards</h3>
+            <br>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card amber lighten-3">
+                        <div class="card-image">
+                            <img src="images/tree3.jpg" alt="">
+                            <span class="card-title"><b>My Christmas Tree</b></span>
+                            <a href="" class="btn-floating halfway-fab waves-effect waves-light red">
+                            <i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href=""><b>This is a link</b></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="card light-blue accent-2">
+                        <div class="card-image">
+                            <img src="images/snowman.jpg" alt="">
+                            <span class="card-title"><b>Little Snowman</b></span>
+                            <a href="" class="btn-large btn-floating halfway-fab waves-effect waves-light red">
+                            <i class="material-icons">play_arrow</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href=""><b>This is a link</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<br>
+
+<!--Horizontal Card -->
+
+    <div class="container">
+        <h3 class="black-text">Horizontal Card</h3>
+        <br>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card horizontal purple lighten-3">
+                    <div class="card-image">
+                        <img src="images/cookies.jpg" alt="">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href=""><b>This is a link</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="card horizontal purple">
+                    <div class="card-image">
+                        <img src="images/light.jpg" alt="">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href=""><b>This is a link</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br>
+
+<!-- Card Reveal -->
+
+    <div class="container">
+        <h3 class="black-text">Card Reveal</h3>
+        <br>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card light-blue lighten-4">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/bluestar.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
+                        <p><a href="">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title
+                        <i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card lime lighten-4">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/gift.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
+                        <p><a href="">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title
+                        <i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card deep-orange lighten-4">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/redball.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title</span>
+                        <p><a href="">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title
+                        <i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 1000px;"></div>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('.sidenav').sidenav();
+    });
+    </script>
+
+</body>
+</html>
